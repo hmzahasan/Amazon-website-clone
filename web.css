@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 9vh;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    
+    align-items: center;
+    /* margin-right: 100px; */
+    justify-content: space-evenly;
+    
+}
+
+.deliver{
+    margin-left: 15px;
+    font-size: .8rem;
+}
+.location{
+    font-size: .95rem;
+    font-weight: 700;
+}
+
+img{
+    
+    height: 8vh;
+    width: 10vw;
+    
+    
+    
+}
+
+.border{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    height:50px;
+    align-content: center;
+}
+.border:hover{
+    border-color: white;
+}
+.searchbar{
+    display: flex;
+    /* margin-right: 33px; */
+    height: 6.8vh;
+    width: 50.97vw;
+    border: 3px solid transparent;
+    background-color: black;
+    
+}
+.searchbar:hover{
+    border-color: #ff7d03;
+    border-radius: 5px;
+}
+input{
+    height: 6.8vh;
+    width: 45vw;
+    border-radius: 0%;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border: none;
+    
+}
+.category{
+    height: 6.8vh;
+    width: 3vw;
+    background-color: rgb(204, 203, 203);
+    font-size: 1rem;
+    border-style: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.icon button{
+    height: 6.8vh;
+    width: 3vw;
+    border-color:rgb(255, 166, 0);
+    border-style: none;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.lan{
+    background: none;
+    color: white;
+    border: none;
+    font-size: .95rem;
+}
+option{
+    color: black;
+}
+.signin{
+    /* margin-right: 33px; */
+    font-size: .85rem;
+}
+
+.accounts{
+    background:none;
+    color: white;
+    border: none;
+    font-size: .95rem;   
+
+}
+.returns{
+    font-size: .85rem;
+}
+.orders{
+    font-size: .95rem;
+    font-weight: 700;
+}
+.cart{
+    height: 7vh;
+    font-size: .95rem;
+    display: flex;
+    /* margin-right: 33px; */
+    align-items: center;
+    font-weight: 700;
+    
+    
+}
+.carticon{
+    font-size: 1.8rem;
+    
+}
+
+                                  /* bellow navbar */
+
+
+ .belownavbar{
+    width: 100%;
+    height: 6vh;
+    background-color: #1c2131;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    
+ } 
+ .bar{
+    margin-left: 20px;
+ }
+ .deals{
+    margin-left: 20px;
+ }
+ .service{
+    margin-left: 20px;
+ }
+ .registry{
+    margin-left: 20px;
+ }
+ .giftcards{
+    margin-left: 20px;
+}
+.sell{
+    margin-left: 20px;
+}
+
+.bord{
+    border: 1px solid transparent;
+    height: 27px;
+    align-content: center;
+}
+
+.bord:hover{
+    border-color: white;
+}
+ 
+
+                                     /* main  */
+  
+ .hero{
+    background-color: rgb(224, 224, 224);
+    height: 1000px;
+ }
+   .background img{
+    height: 300px;
+    
+    width: 100%;
+  }   
+  
+  .content{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .box{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 300px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+  }
+  .box img{
+    height: 80%;
+width: 85%;
+margin-top: 10px;
+margin-left: 20px;
+  }
+  .box h2{
+    margin-left: 20px;
+    
+    
+  }
+
+ 
+  a{
+    text-decoration: none;
+    color: #2162A1
+  }
+
+
+  /* footer  */
+
+
+  .footer{
+    height: 1000px;
+    width: 100vw;
+    background-color: #232f3e;
+
+  }
+  .backontop a{
+    color: white;
+    height: 50px;
+    font-size: 1.2rem;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .backontop a:hover{
+    
+    background-color: rgba(114, 129, 148,.5);
+    
+  }
+.linkedlist{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    height: 340px;
+    
+}
+hr{
+    opacity: .2;
+    
+}
+  .know{
+    color: white;
+    list-style-type:none;
+    text-decoration: none;
+    line-height: 30px;
+  }
+  .know a{
+    color: white;
+  }
+
+  .bottom{
+    margin-top: 30px;
+    height: 170px;
+  }
+  .bottom-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .bottom-main button{
+    margin-top: 14px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    background:none;
+    font-size: 1rem;
+    background-color: #ffee00;
+    height: 35px;
+    width: 250px;
+    border-radius: 20px;
+    border-style: none;
+  }
+  .bottom-main p{
+    font-size: .8rem;
+  }
+
+
+  .seclast{
+    height: 150px;
+  }
+
+  .last{
+    height:400px;
+    background-color: #131a22;
+    
+  }
