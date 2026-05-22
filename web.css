@@ -227,7 +227,7 @@ margin-left: 20px;
 
 
   .footer{
-    height: 1000px;
+    height: 550px;
     width: 100vw;
     background-color: #232f3e;
 
@@ -296,11 +296,11 @@ hr{
 
 
   .seclast{
-    height: 150px;
+    height: 50px;
   }
 
   .last{
-    height:400px;
+    height:200px;
     background-color: #131a22;
     
   }
